@@ -1,3 +1,35 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home-header {
+  background: image-url("space-bg.jpeg");
+
+  h1 {
+	  font-family: 'Playfair Display', serif;
+	  font-weight: 900;
+	  color: white;  	
+  }
+
+  h2 {
+  	font-family: 'Playfair Display', serif;
+	  font-weight: 400;
+	  font-size: 1em;
+	  color: white;  	
+  }
+
+}
+
+.menu {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.menu-text {
+	font-family: 'Playfair Display', serif;
+	color: white;
+}
+
+.below-blog {
+  background-color: #0a0a0a;
+}
