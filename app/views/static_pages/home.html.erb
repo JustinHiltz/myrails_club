@@ -1,17 +1,6 @@
 <% provide(:title, 'My Rails Club') %>
-	<div class="top-bar">
-		<div class="top-bar-left">
-			<ul class="menu">
-			  <!-- Add feature to check whether active or not -->
-				<li class="menu-text">Home</li>
-<!-- 		    <li class="menu-text"><a href="#">Project One</a></li>
-				<li class="menu-text"><a href="#">Project Two</a></li>
-				<li class="menu-text"><a href="#">Project Three</a></li>  			 -->
-			</ul>
-		</div>
-	</div>
-	 
-	<div class="callout large home-header">
+
+	<div class="callout large home-header"> 
 		<div class="row column text-center">
 			<h1>MyRails.Club</h1>
 			<h2 class="subheader">A Club for Rails Projects</h2>
@@ -22,11 +11,20 @@
 		<div class="blog-post">
 			<h3>The Beginning of a New Club <small>February 24, 2016</small>
 			<h6><%= link_to "Author: Justin Hiltz", "https://twitter.com/justin_hiltz" %></h6>
-			<!-- <img class="thumbnail" src="http://placehold.it/850x350"> 
-			<%= image_tag("trees-bg.jpeg") %> -->
 			<p>This is the place I will be collecting all of my Rails projects. It'll be a portfolio of sorts. Why the name? I picked up <%= link_to "myrails.club", "https://www.myrails.club" %> for about a buck.</p>
-			<p>My website is <%= link_to "justinhiltz.com", "https://justinhiltz.com" %> and my Github profile is <%= link_to "here", "https://github.com/justinhiltz" %>.
+			<p>My website is <%= link_to "justinhiltz.com", "https://justinhiltz.com" %> and my Github profile is <%= link_to "here", "https://github.com/justinhiltz" %>.</p>
 		</div>
 	</div>
+
+	<div class="callout large home-footer">
+		<div class="row column text-center">
+
+		</div>
+	</div>
+	<script>
+		$(".toggle-menu").on("click", function(){
+  		$("#menu").toggleClass("is-open");
+		});
+</script>
 </body>
 </html>
